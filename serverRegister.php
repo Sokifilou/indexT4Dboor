@@ -8,7 +8,7 @@ include("config.php");
 		{
 			if ($servData['on'] == 1 )
 			{ 
-				require(''.$servData['path'].'/app/model/colbon.php'); ?>
+				require(''.$servData['path'].'/app/config.php'); ?>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<div class="server serverA serverbig serverpreRegister serverbigpreRegister ">
 				<a class="link" title="Register <?php echo $servData['name']; ?>" href="<?php echo $servData['URL']; ?>/register.php" onclick="">
